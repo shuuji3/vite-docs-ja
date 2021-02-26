@@ -1,25 +1,25 @@
 ---
 home: true
 heroImage: /logo.svg
-actionText: Get Started
+actionText: はじめる
 actionLink: /guide/
 
-altActionText: Learn More
+altActionText: 詳しく見る
 altActionLink: /guide/why
 
 features:
-  - title: 💡 Instant Server Start
-    details: On demand file serving over native ESM, no bundling required!
-  - title: ⚡️ Lightning Fast HMR
-    details: Hot Module Replacement (HMR) that stays fast regardless of app size.
-  - title: 🛠️ Rich Features
-    details: Out-of-the-box support for TypeScript, JSX, CSS and more.
-  - title: 📦 Optimized Build
-    details: Pre-configured Rollup build with multi-page and library mode support.
-  - title: 🔩 Universal Plugins
-    details: Rollup-superset plugin interface shared between dev and build.
-  - title: 🔑 Fully Typed APIs
-    details: Flexible programmatic APIs with full TypeScript typing.
+  - title: 💡 高速なサーバーの起動
+    details: ネイティブESMを介したオンデマンドにファイル配信。バンドルが不要。
+  - title: ⚡️ 軽量・高速なHMR
+    details: ホットモジュール置換（Hot Module Replacement、HMR）によりアプリサイズに依存せずに高速。
+  - title: 🛠️ リッチな機能
+    details: デフォルトでTypeScript、JSX、CSSなどをサポート。
+  - title: 📦 ビルドの最適化
+    details: 複数ページとライブラリモードをサポートする設定済みのRollupビルド。
+  - title: 🔩 ユニバーサルなプラグイン
+    details: 開発とビルドでRollup-supersetプラグインインターフェイスを共有。
+  - title: 🔑 完全に型付けされたAPI
+    details: 完全に型付けされたTypeScriptにより柔軟なプログラム可能なAPIを提供。
 footer: MIT Licensed | Copyright © 2019-present Evan You & Vite Contributors
 ---
 
@@ -29,7 +29,7 @@ footer: MIT Licensed | Copyright © 2019-present Evan You & Vite Contributors
     <img :src="src" :alt="name">
   </a>
   <br>
-  <a href="https://github.com/sponsors/yyx990803" target="_blank" rel="noopener">Become a sponsor on GitHub</a>
+  <a href="https://github.com/sponsors/yyx990803" target="_blank" rel="noopener">GitHubでスポンサーになる</a>
 </div>
 
 <script setup>
