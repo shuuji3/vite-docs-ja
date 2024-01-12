@@ -4,6 +4,10 @@
       "2.1.6.カタカナの長音": true,
       "no-mix-dearu-desumasu": {
         "strict": false
+      },
+      "ja-space-between-half-and-full-width": {
+        "space": "always",
+        "lintStyledNode": true
       }
     }
   },
